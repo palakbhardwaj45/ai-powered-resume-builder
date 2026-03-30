@@ -1,0 +1,24 @@
+name: Download Paper Jar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download jar
+        run: |
+          wget https://github.com/minekube/connect-java/releases/download/latest/connect-spigot.jar 
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add connect-spigot.jar 
+          git commit -m "Add  connect jar" 
+          git push
