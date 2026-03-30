@@ -1,27 +1,51 @@
-name: Download Paper Jar
+name: Minecraft Server
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
 
 jobs:
-  download:
+  mc:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
 
     steps:
-      - name: Checkout repo
+      - name: Restore Repo
         uses: actions/checkout@v4
 
-      - name: Download file
-        run: |
-          wget https://fill-data.papermc.io/v1/objects/da497e12b43e5b61c5df150e4bfd0de0f53043e57d2ac98dd59289ee9da4ad68/paper-1.21.11-127.jar
+      - name: Install Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
 
-      - name: Commit and push
+      - name: Start Auto Backup Loop
+        run: |
+          (
+            while true
+            do
+              sleep 300
+              git config user.name "github-actions"
+              git config user.email "actions@github.com"
+              git add -A
+              git commit -m "Auto backup" || true
+              git push || true
+            done
+          ) &
+
+      - name: Start Minecraft Server
+        run: |
+          java -Xmx16G -Xms4G -jar server.jar --nogui
+
+      - name: Final Backup
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add .
-          git commit -m "add jar"
-          git push
+          git add -A
+          git commit -m "Final backup" || true
+          git push || true
