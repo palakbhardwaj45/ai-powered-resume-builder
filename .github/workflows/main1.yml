@@ -8,17 +8,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Repo checkout
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      # 2️⃣ Copy plugin to plugins folder
       - name: Copy Plugin to Plugins Folder
         run: |
           cp connect-spigot.jar plugins/
 
+      # 3️⃣ Commit and Push with PAT
       - name: Commit and Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add plugins/connect-spigot.jar
           git commit -m "Copy connect-spigot plugin to plugins folder" || true
-          git push
+          git push https://x-access-token:${GH_PAT}@github.com/palakbhardwaj45/ai-powered-resume-builder.git HEAD:main
