@@ -23,6 +23,10 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Download Paper Server
+        run: |
+          wget https://fill-data.papermc.io/v1/objects/da497e12b43e5b61c5df150e4bfd0de0f53043e57d2ac98dd59289ee9da4ad68/paper-1.21.11-127.jar -O server.jar
+
       - name: Start Auto Backup Loop
         run: |
           (
