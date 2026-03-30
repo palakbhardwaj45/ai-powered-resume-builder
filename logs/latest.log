@@ -1,0 +1,50 @@
+[03:47:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
+[03:47:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[03:47:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:47:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[03:47:37] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[03:47:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:47:44] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[03:47:44] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[03:47:44] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 7790ms.
+[03:47:45] [ServerMain/INFO]: No existing world data, creating new world
+[03:47:46] [ServerMain/INFO]: Loaded 1470 recipes
+[03:47:46] [ServerMain/INFO]: Loaded 1584 advancements
+[03:47:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:47:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 347.2ms
+[03:47:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[03:47:46] [Server thread/INFO]: Loading properties
+[03:47:46] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[03:47:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:47:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:47:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:47:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:47:48] [Server thread/INFO]: Default game type: SURVIVAL
+[03:47:48] [Server thread/INFO]: Generating keypair
+[03:47:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:47:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:47:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:47:48] [Server thread/INFO]: Preparing level "world"
+[03:47:48] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[03:47:48] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[03:47:48] [Server thread/INFO]: Selecting spawn point for world 'minecraft:overworld'...
+[03:47:55] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_nether'...
+[03:47:56] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_end'...
+[03:47:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[03:47:57] [Server thread/INFO]: Preparing spawn area: 100%
+[03:47:57] [Server thread/INFO]: Prepared spawn area in 8657 ms
+[03:47:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[03:47:57] [Server thread/INFO]: Preparing spawn area: 100%
+[03:47:57] [Server thread/INFO]: Prepared spawn area in 1427 ms
+[03:47:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[03:47:57] [Server thread/INFO]: Preparing spawn area: 100%
+[03:47:57] [Server thread/INFO]: Prepared spawn area in 391 ms
+[03:47:57] [Server thread/INFO]: Done preparing level "world" (9.042s)
+[03:47:57] [Server thread/INFO]: [spark] Starting background profiler...
+[03:47:57] [Server thread/INFO]: Running delayed init tasks
+[03:47:57] [Server thread/INFO]: Done (22.396s)! For help, type "help"
+[03:47:57] [Server thread/INFO]: *************************************************************************************
+[03:47:57] [Server thread/INFO]: This is the first time you're starting this server.
+[03:47:57] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[03:47:57] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[03:47:57] [Server thread/INFO]: *************************************************************************************
