@@ -3,7 +3,7 @@ name: Minecraft Server
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */5 * * *"
+    - cron: "0 */5 * * *"  # har 5 ghante run hoga
 
 permissions:
   contents: write
@@ -23,7 +23,14 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Download Paper
+      - name: Install & Start Tailscale
+        run: |
+          # Install Tailscale
+          curl -fsSL https://tailscale.com/install.sh | sh
+          # Start Tailscale with persistent machine key
+          sudo tailscale up --authkey ${{ secrets.TS_AUTH_KEY }} --hostname github-mc-server --accept-routes
+
+      - name: Download PaperMC
         run: |
           wget https://fill-data.papermc.io/v1/objects/da497e12b43e5b61c5df150e4bfd0de0f53043e57d2ac98dd59289ee9da4ad68/paper-1.21.11-127.jar -O server.jar
 
