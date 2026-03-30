@@ -133,3 +133,9 @@ Try restarting your game.
 [20:03:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:07:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:11:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:15:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:18:06] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: Watch closed with code 1012: restarting
+[20:18:06] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/INFO]: [connect] Trying to reconnect in 1.162s...
+[20:18:18] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketException: Network is unreachable
+[20:18:18] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.458s...
+[20:18:21] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
