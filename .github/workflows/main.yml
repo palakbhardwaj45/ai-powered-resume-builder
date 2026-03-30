@@ -3,7 +3,7 @@ name: Minecraft Server
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */5 * * *"
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ permissions:
 jobs:
   mc:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 300
 
     steps:
       - name: Restore Repo
@@ -23,7 +23,7 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Download Paper Server
+      - name: Download Paper
         run: |
           wget https://fill-data.papermc.io/v1/objects/da497e12b43e5b61c5df150e4bfd0de0f53043e57d2ac98dd59289ee9da4ad68/paper-1.21.11-127.jar -O server.jar
 
