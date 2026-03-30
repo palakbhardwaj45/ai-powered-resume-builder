@@ -58,3 +58,9 @@
 [04:43:36] [defaultEventLoopGroup-4-3/INFO]: [connect] Connect tunneled player ThisIsDev disconnected
 [04:43:36] [Server thread/INFO]: ThisIsDev lost connection: Disconnected
 [04:43:36] [Server thread/INFO]: ThisIsDev left the game
+[07:21:16] [Server thread/INFO]: [connect] Connect tunneled player logged in as ThisIsDev (UUID: 8b706127-732c-3580-aa9d-4b8ecab36052)
+[07:21:17] [Server thread/INFO]: ThisIsDev joined the game
+[07:21:17] [Server thread/INFO]: ThisIsDev[/157.49.151.129:0] logged in with entity id 1005 at ([world]-27.547376611068636, 63.0, -18.156406530550125)
+[07:21:28] [defaultEventLoopGroup-4-3/INFO]: [connect] Connect tunneled player ThisIsDev disconnected
+[07:21:28] [Server thread/INFO]: ThisIsDev lost connection: Disconnected
+[07:21:28] [Server thread/INFO]: ThisIsDev left the game
