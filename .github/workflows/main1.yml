@@ -1,27 +1,24 @@
-name: Download Paper Jar
+name: Copy Plugin and Push
 
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  download:
+  copy-plugin:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Download file
+      - name: Copy Plugin to Plugins Folder
         run: |
-          wget  https://github.com/minekube/connect-java/releases/download/latest/connect-spigot.jar
+          cp connect-spigot.jar plugins/
 
-      - name: Commit and push
+      - name: Commit and Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add .
-          git commit -m "add jar"
+          git add plugins/connect-spigot.jar
+          git commit -m "Copy connect-spigot plugin to plugins folder" || true
           git push
