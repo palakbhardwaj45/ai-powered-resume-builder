@@ -357,3 +357,4 @@
 [15:28:46] [defaultEventLoopGroup-5-3/INFO]: [connect] Connect tunneled player rare_Minty disconnected
 [15:28:46] [Server thread/INFO]: rare_Minty lost connection: Disconnected
 [15:28:46] [Server thread/INFO]: rare_Minty left the game
+[15:31:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
