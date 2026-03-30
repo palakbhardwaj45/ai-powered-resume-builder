@@ -69,3 +69,12 @@
 [16:18:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:22:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:27:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:31:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:31:37] [User Authenticator #0/INFO]: UUID of player Lukevalmentaja is 56bcc8f3-4d19-3ddf-805a-fa5b9269310d
+[16:31:38] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [connect]
+[16:31:39] [Server thread/INFO]: Lukevalmentaja joined the game
+[16:31:39] [Server thread/INFO]: Lukevalmentaja[/[2001:999:409:b0a3:1c64:604d:936:43d0]:0] logged in with entity id 1 at ([world]55.5, 73.0, -38.5)
+[16:31:39] [Server thread/INFO]: Lukevalmentaja lost connection: Invalid signature for profile public key.
+Try restarting your game.
+[16:31:39] [Connect Spigot connection thread-3-3/INFO]: [connect] Connect tunneled player Lukevalmentaja disconnected
+[16:31:39] [Server thread/INFO]: Lukevalmentaja left the game
