@@ -349,3 +349,11 @@
 [15:15:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:19:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:23:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:27:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:28:30] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [connect]
+[15:28:31] [Server thread/INFO]: [connect] Connect tunneled player logged in as rare_Minty (UUID: 0aed34a3-0f06-4378-a1a8-18612510da00)
+[15:28:32] [Server thread/INFO]: rare_Minty joined the game
+[15:28:32] [Server thread/INFO]: rare_Minty[/80.49.227.229:0] logged in with entity id 1 at ([world]57.5, 73.0, -22.5)
+[15:28:46] [defaultEventLoopGroup-5-3/INFO]: [connect] Connect tunneled player rare_Minty disconnected
+[15:28:46] [Server thread/INFO]: rare_Minty lost connection: Disconnected
+[15:28:46] [Server thread/INFO]: rare_Minty left the game
