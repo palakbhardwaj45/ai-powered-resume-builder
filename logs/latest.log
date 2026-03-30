@@ -84,3 +84,10 @@
 [07:27:36] [Connect Spigot connection thread-2-1/INFO]: Disconnecting ThisIsDev for sending keepalive response (10149615) out-of-order!
 [07:27:36] [Server thread/INFO]: ThisIsDev lost connection: Timed out
 [07:27:36] [Server thread/INFO]: ThisIsDev left the game
+[07:30:07] [Server thread/INFO]: [connect] Connect tunneled player logged in as ThisIsDev (UUID: 8b706127-732c-3580-aa9d-4b8ecab36052)
+[07:30:09] [Server thread/INFO]: ThisIsDev joined the game
+[07:30:09] [Server thread/INFO]: ThisIsDev[/157.49.151.129:0] logged in with entity id 2376 at ([world]-138.61325687657907, 53.0, 18.478721551504105)
+[07:30:40] [Server thread/WARN]: ThisIsDev moved too quickly! 17.323338883912584,6.0,1.8292213816074607
+[07:30:40] [Server thread/WARN]: ThisIsDev was kicked for floating too long!
+[07:30:40] [Server thread/INFO]: ThisIsDev lost connection: Flying is not enabled on this server
+[07:30:40] [Server thread/INFO]: ThisIsDev left the game
