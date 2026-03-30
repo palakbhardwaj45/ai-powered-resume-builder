@@ -64,3 +64,23 @@
 [07:21:28] [defaultEventLoopGroup-4-3/INFO]: [connect] Connect tunneled player ThisIsDev disconnected
 [07:21:28] [Server thread/INFO]: ThisIsDev lost connection: Disconnected
 [07:21:28] [Server thread/INFO]: ThisIsDev left the game
+[07:24:39] [Server thread/INFO]: [connect] Connect tunneled player logged in as ThisIsDev (UUID: 8b706127-732c-3580-aa9d-4b8ecab36052)
+[07:24:40] [Server thread/INFO]: ThisIsDev joined the game
+[07:24:40] [Server thread/INFO]: ThisIsDev[/157.49.151.129:0] logged in with entity id 1289 at ([world]-21.81856537145128, 64.0, -7.853231672034111)
+[07:25:01] [Connect Spigot connection thread-2-2/INFO]: [connect] Connect tunneled player ThisIsDev disconnected
+[07:25:02] [Server thread/INFO]: ThisIsDev lost connection: Disconnected
+[07:25:02] [Server thread/INFO]: ThisIsDev left the game
+[07:25:10] [Server thread/INFO]: [connect] Connect tunneled player logged in as ThisIsDev (UUID: 8b706127-732c-3580-aa9d-4b8ecab36052)
+[07:25:11] [Server thread/INFO]: ThisIsDev joined the game
+[07:25:11] [Server thread/INFO]: ThisIsDev[/157.49.151.129:0] logged in with entity id 1589 at ([world]-12.300000011920929, 65.0, -4.310980888176642)
+[07:26:28] [Connect Spigot connection thread-2-4/INFO]: Disconnecting ThisIsDev for sending keepalive response (10072215) out-of-order!
+[07:26:28] [Connect Spigot connection thread-2-4/INFO]: [connect] Connect tunneled player ThisIsDev disconnected
+[07:26:28] [Server thread/INFO]: ThisIsDev lost connection: Timed out
+[07:26:28] [Server thread/INFO]: ThisIsDev left the game
+[07:26:44] [Server thread/INFO]: [connect] Connect tunneled player logged in as ThisIsDev (UUID: 8b706127-732c-3580-aa9d-4b8ecab36052)
+[07:26:45] [Server thread/INFO]: ThisIsDev joined the game
+[07:26:45] [Server thread/INFO]: ThisIsDev[/157.49.151.129:0] logged in with entity id 1762 at ([world]-1.9643270181305068, 67.0, 39.042926654517196)
+[07:27:28] [Server thread/INFO]: ThisIsDev drowned
+[07:27:36] [Connect Spigot connection thread-2-1/INFO]: Disconnecting ThisIsDev for sending keepalive response (10149615) out-of-order!
+[07:27:36] [Server thread/INFO]: ThisIsDev lost connection: Timed out
+[07:27:36] [Server thread/INFO]: ThisIsDev left the game
