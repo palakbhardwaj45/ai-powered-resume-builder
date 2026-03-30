@@ -139,3 +139,5 @@ Try restarting your game.
 [20:18:18] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketException: Network is unreachable
 [20:18:18] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.458s...
 [20:18:21] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[20:19:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:23:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
