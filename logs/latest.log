@@ -668,3 +668,7 @@ Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
 [13:38:33] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 57.729s...
 [13:39:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:44:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:44:41] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[13:44:41] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 57.464s...
+[13:48:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
