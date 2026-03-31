@@ -795,3 +795,5 @@ Internal Server Error
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
 [15:03:50] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 56.833s...
+[15:04:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:08:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
