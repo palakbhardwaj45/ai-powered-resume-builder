@@ -332,3 +332,11 @@ Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
 [17:41:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 53.498s...
 [17:41:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:45:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:47:47] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
+	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+Internal Server Error
+ (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
+[17:47:47] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 58.243s...
