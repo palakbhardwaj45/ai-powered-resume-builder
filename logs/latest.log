@@ -1,856 +1,148 @@
-[10:42:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
-[10:42:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
-[10:42:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:42:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[10:42:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[15:57:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
+[15:57:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[15:57:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:57:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[15:57:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - connect (0.7.2), playit-gg (0.2.0)
-[10:43:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:43:03] [ServerMain/INFO]: Loaded 1470 recipes
-[10:43:03] [ServerMain/INFO]: Loaded 1584 advancements
-[10:43:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[10:43:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 446.9ms
-[10:43:03] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[10:43:03] [Server thread/INFO]: Loading properties
-[10:43:03] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[10:43:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:43:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:43:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:43:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:43:05] [Server thread/INFO]: Default game type: SURVIVAL
-[10:43:05] [Server thread/INFO]: Generating keypair
-[10:43:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:43:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:43:05] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[10:43:05] [Server thread/INFO]: [connect] Loading server plugin connect v0.7.2
-[10:43:06] [Server thread/WARN]: [connect] en_ is not a supported language.
-[10:43:07] [Server thread/INFO]: [connect] Took 1,666ms to boot Connect
-[10:43:07] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[10:43:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:43:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:43:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:43:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:43:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:43:07] [Server thread/INFO]: Preparing level "world"
-[10:43:07] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[10:43:07] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[10:43:07] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[10:43:07] [Server thread/INFO]: Preparing spawn area: 100%
-[10:43:07] [Server thread/INFO]: Prepared spawn area in 2 ms
-[10:43:07] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[10:43:07] [Server thread/INFO]: Prepared spawn area in 0 ms
-[10:43:07] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[10:43:07] [Server thread/INFO]: Preparing spawn area: 100%
-[10:43:07] [Server thread/INFO]: Prepared spawn area in 1 ms
-[10:43:07] [Server thread/INFO]: Done preparing level "world" (0.520s)
-[10:43:07] [Server thread/INFO]: [connect] Enabling connect v0.7.2
-[10:43:07] [Server thread/INFO]: [connect] Endpoint name: worstsmp
-[10:43:07] [Server thread/INFO]: [connect] Your public address: worstsmp.play.minekube.net
-[10:43:07] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[10:43:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[10:43:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[10:43:08] [Server thread/INFO]: [spark] Starting background profiler...
-[10:43:08] [Server thread/INFO]: Running delayed init tasks
-[10:43:08] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xd17a3042, L:/[0:0:0:0:0:0:0:0]:25565]
-[10:43:08] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x6ea4ebcf, L:local:E:c249890a]
-[10:43:08] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[10:43:08] [Server thread/INFO]: Done (15.326s)! For help, type "help"
-[10:43:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[10:43:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[10:43:09] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:804:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
-[10:43:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[10:43:10] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
+[15:57:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:57:25] [ServerMain/INFO]: Loaded 1470 recipes
+[15:57:25] [ServerMain/INFO]: Loaded 1584 advancements
+[15:57:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:57:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 331.3ms
+[15:57:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:57:25] [Server thread/INFO]: Loading properties
+[15:57:25] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:57:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:57:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:57:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:57:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:57:27] [Server thread/INFO]: Default game type: SURVIVAL
+[15:57:27] [Server thread/INFO]: Generating keypair
+[15:57:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:57:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:57:27] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:57:27] [Server thread/INFO]: [connect] Loading server plugin connect v0.7.2
+[15:57:28] [Server thread/WARN]: [connect] en_ is not a supported language.
+[15:57:28] [Server thread/INFO]: [connect] Took 1,617ms to boot Connect
+[15:57:28] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[15:57:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:57:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:57:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:57:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:57:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:57:28] [Server thread/INFO]: Preparing level "world"
+[15:57:28] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[15:57:28] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[15:57:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[15:57:29] [Server thread/INFO]: Preparing spawn area: 100%
+[15:57:29] [Server thread/INFO]: Prepared spawn area in 1 ms
+[15:57:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:57:29] [Server thread/INFO]: Preparing spawn area: 100%
+[15:57:29] [Server thread/INFO]: Prepared spawn area in 1 ms
+[15:57:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:57:29] [Server thread/INFO]: Prepared spawn area in 0 ms
+[15:57:29] [Server thread/INFO]: Done preparing level "world" (0.461s)
+[15:57:29] [Server thread/INFO]: [connect] Enabling connect v0.7.2
+[15:57:29] [Server thread/INFO]: [connect] Endpoint name: worstsmp
+[15:57:29] [Server thread/INFO]: [connect] Your public address: worstsmp.play.minekube.net
+[15:57:29] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[15:57:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[15:57:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[15:57:30] [Server thread/INFO]: [spark] Starting background profiler...
+[15:57:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[15:57:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[15:57:30] [Server thread/INFO]: Running delayed init tasks
+[15:57:30] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x67d38058, L:/[0:0:0:0:0:0:0:0]:25565]
+[15:57:30] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x3db6d2c1, L:local:E:01fd5ba7]
+[15:57:30] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[15:57:30] [Server thread/INFO]: Done (14.598s)! For help, type "help"
+[15:57:30] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[15:57:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[15:57:32] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: usa-endif.gl.joinmc.link
+[15:57:32] [Thread-5/INFO]: playit.gg: tunnel setup
+[15:57:32] [Thread-5/INFO]: playit.gg: usa-endif.gl.joinmc.link
+[15:57:32] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:10] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 0.601s...
-[10:43:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: usa-endif.gl.joinmc.link
-[10:43:10] [Thread-5/INFO]: playit.gg: tunnel setup
-[10:43:10] [Thread-5/INFO]: playit.gg: usa-endif.gl.joinmc.link
-[10:43:13] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:13] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2.205s...
-[10:43:17] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:17] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2.036s...
-[10:43:22] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:22] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2.616s...
-[10:43:26] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:26] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6.109s...
-[10:43:35] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:35] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4.537s...
-[10:43:42] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:42] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 10.941s...
-[10:43:55] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:43:55] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 11.665s...
-[10:44:09] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:44:09] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 33.432s...
-[10:44:45] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:44:45] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 56.179s...
-[10:45:43] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:45:43] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 50.198s...
-[10:46:36] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:46:36] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 36.795s...
-[10:47:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[10:48:15] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:48:15] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 39.211s...
-[10:49:56] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:49:56] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 51.055s...
-[10:51:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[10:51:50] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:51:50] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 50.683s...
-[10:55:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[10:57:43] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[10:57:43] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 25.517s...
-[10:59:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:03:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:04:11] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:04:11] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 50.873s...
-[11:07:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:10:04] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:10:04] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 56.055s...
-[11:11:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:15:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:17:03] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:17:03] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 36.165s...
-[11:19:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:21:41] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:21:41] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 44.16s...
-[11:23:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:24:28] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:24:28] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 4.355s...
-[11:27:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:27:34] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:27:34] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 22.149s...
-[11:31:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:33:59] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:33:59] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 59.384s...
-[11:35:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:39:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:41:01] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:41:01] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 57.867s...
-[11:43:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:46:01] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:46:01] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 20.661s...
-[11:47:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=47.15.25.223:58964, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 109, -109, -71, -35, 19, 99, -35, 47, 15, 25, -33, -26, 84, -97, 46, 26, -92, -97, 8, 105, -53, -76, 54, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 110, -123, -97, 8, 1, 4, -109, -71, -35, 19, -1, 3, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 32, -98, -18, 31, 68, 63, -123, 121, 45, 95, 118, -66, 44, -12, -124, 51], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[11:47:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[11:47:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[11:47:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[11:47:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[11:47:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[11:47:02] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[11:47:02] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[11:47:02] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /47.15.25.223:58964
-[11:47:02] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[11:47:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=47.15.25.223:58974, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, 47, 15, 25, -33, -26, 94, -104, 123, 76, 27, -97, 8, 105, -53, -76, 59, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 3, -4, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 41, 55, 40, -123, 121, -57, 2, 62, 99, 36, 31, -48, -31, -13, 94, -49], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[11:47:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[11:47:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[11:47:08] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[11:47:08] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[11:47:08] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[11:47:08] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[11:47:08] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[11:47:08] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /47.15.25.223:58974
-[11:47:08] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[11:47:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:49:24] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:49:24] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 50.956s...
-[11:51:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:54:17] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:54:17] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 59.692s...
-[11:55:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:57:19] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[11:57:19] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 59.833s...
-[11:59:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56298, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -37, -22, -2, -87, -46, -93, -97, 8, 105, -53, -73, 54, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -52, -124, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 75, 72, -13, -77, 57, 6, -75, -55, 119, 17, 102, 71, -6, -27, 59, -27], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[11:59:50] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[11:59:50] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56298
-[11:59:50] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56304, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -37, -16, 90, -128, 116, -42, -97, 8, 105, -53, -73, 63, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -9, -73, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 127, -63, 62, 103, -68, 83, -56, 41, -23, -94, 43, -39, -43, 103, 51, -117], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[11:59:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[11:59:59] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56304
-[11:59:59] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56327, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 7, 77, 115, -96, -32, -97, 8, 105, -53, -73, 70, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -26, -63, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -84, -95, -45, -117, 64, -9, -16, -105, -5, 81, 96, 95, 50, 61, 76, -54], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:00:06] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:00:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56327
-[12:00:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56332, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 12, 45, 44, -61, -125, -97, 8, 105, -53, -73, 73, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 3, 100, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 59, 105, 54, 91, 74, -7, 73, 29, 72, 7, 38, -25, -20, 28, -18, -4], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:00:09] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:00:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56332
-[12:00:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56338, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 18, -123, -71, 38, -5, -97, 8, 105, -53, -73, 78, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -97, -36, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -118, -63, -117, -18, 31, -12, 66, -8, 44, 33, 82, 11, -123, 112, -86, 79], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:00:14] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:00:14] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56338
-[12:00:14] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:00:21] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:00:21] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 2.711s...
-[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56342, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 109, -109, -71, -35, 19, 99, -35, -99, 49, -84, -6, -36, 22, -41, 28, 102, -123, -97, 8, 105, -53, -73, 90, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -17, 102, -97, 8, 1, 4, -109, -71, -35, 19, -1, 3, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -89, 18, 22, -38, -101, -2, 29, -54, -110, 73, 12, 127, -128, 110, 88, 115], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:00:26] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:00:26] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56342
-[12:00:26] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56369, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 49, -76, 0, 111, -71, -97, 8, 105, -53, -73, 119, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -63, -102, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -22, 8, -127, -97, 105, -116, 127, 66, -126, -3, -71, 3, -85, -59, -92, 49], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:00:56] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:00:56] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56369
-[12:00:56] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:03:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:04:26] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:04:26] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 22.218s...
-[12:06:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:58320, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -29, -48, 88, 88, 126, 60, -97, 8, 105, -53, -72, -74, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -29, 29, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 9, -8, 74, -31, 96, 125, -86, 77, -84, 78, 39, 47, 106, -81, 120, 118], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:06:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:06:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:06:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:06:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:06:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:06:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:06:14] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:06:14] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:58320
-[12:06:14] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:06:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:58341, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -29, -27, 78, 42, 77, -121, -97, 8, 105, -53, -72, -37, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 5, 104, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 108, 16, 115, -4, -18, -78, -29, -76, -94, 12, -74, 113, -84, 16, 93, 63], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:06:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:06:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:06:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:06:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:06:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:06:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:06:51] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:06:51] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:58341
-[12:06:51] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:06:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:58345, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -29, -23, -19, 59, -33, -29, -97, 8, 105, -53, -72, -33, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -65, -60, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -26, 3, -65, 38, -124, -88, 56, -91, -11, -6, -7, -109, -114, -64, -65, 15], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:06:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:06:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:06:55] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:06:55] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:58345
-[12:06:55] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:07:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:08:51] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:08:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 46.814s...
-[12:10:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:58437, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -28, 69, -104, 44, -94, -24, -97, 8, 105, -53, -71, -101, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -84, -55, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 52, -40, -13, -32, 115, 24, 43, -119, 119, -86, -64, 66, -91, 107, -25, -118], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:10:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:10:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:10:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:10:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:10:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:10:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:10:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:10:03] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:58437
-[12:10:03] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:11:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:57968, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -30, 112, -51, 76, -17, 54, -97, 8, 105, -53, -71, -43, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -113, 23, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -15, -100, -47, -77, 108, -84, -49, 19, -99, -118, 54, -15, -72, -32, -16, -63], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:11:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:11:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:11:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:11:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:11:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:11:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:11:01] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:11:01] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:57968
-[12:11:01] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:11:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:57971, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -30, 115, 82, 106, 64, -39, -97, 8, 105, -53, -71, -39, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 85, -70, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -11, 16, 30, 83, 124, -68, 90, -88, -70, 123, -115, 42, -2, -88, 41, 6], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:11:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:11:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:11:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:11:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:11:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:11:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:11:05] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:11:05] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:57971
-[12:11:05] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:55777, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -39, -31, -35, -40, 73, 112, -97, 8, 105, -53, -71, -32, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -35, 81, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 102, 80, -96, 83, 118, 90, 30, -81, 66, -10, -2, 10, -9, 102, 1, 72], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:11:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:11:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:11:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:11:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:11:12] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:11:12] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:55777
-[12:11:12] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:11:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:12:40] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:12:40] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 45.527s...
-[12:15:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:18:28] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:18:28] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 29.461s...
-[12:19:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:21:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:49681, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -62, 17, 7, 40, 27, 69, -97, 8, 105, -53, -68, 86, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 5, 38, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -126, 30, -17, 83, -81, -92, -63, -106, 47, -29, 0, 82, 44, 14, -5, 23], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:21:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:21:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:21:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:21:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:21:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:21:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:21:42] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:21:42] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:49681
-[12:21:42] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:22:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:49700, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -62, 36, -3, 43, 105, 44, -97, 8, 105, -53, -68, 113, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 13, 13, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -92, 23, 87, -114, 56, 123, -109, 108, -112, 37, 1, -75, -91, -71, -48, 73], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:22:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:22:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:22:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:22:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:22:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:22:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:22:09] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:22:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:49700
-[12:22:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:23:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:24:00] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:24:00] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 7m 11.974s...
-[12:27:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:31:15] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:31:15] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 7m 3.374s...
-[12:31:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:33:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:49955, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -61, 35, 108, -81, 0, 98, -97, 8, 105, -53, -65, 7, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -96, 67, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 12, 47, -17, 21, 60, 9, 116, 108, -99, 88, -75, -101, -16, 112, 25, 66], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:33:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:33:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:33:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:33:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:33:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:33:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:33:12] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:33:12] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:49955
-[12:33:12] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:33:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:49960, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -61, 40, 72, -7, 37, 71, -97, 8, 105, -53, -65, 9, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 54, 40, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 13, 63, 42, 37, 84, -61, -76, 96, -65, -33, -58, 114, -44, 75, -121, 39], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:33:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:33:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:33:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:33:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:33:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:33:14] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:33:14] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:33:14] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:49960
-[12:33:14] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:35:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:38:20] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:38:20] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 1.651s...
-[12:39:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:42:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:54598, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -43, 70, 112, 96, -104, -84, -97, 8, 105, -53, -63, 43, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 123, -115, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -1, 28, -66, -120, -61, 61, -17, 120, -19, 20, -80, -20, -4, -92, 111, 124], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:42:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:42:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:42:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:42:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:42:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:42:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:42:19] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:42:19] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:54598
-[12:42:19] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:42:24] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:42:24] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 23.636s...
-[12:43:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:55050, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -41, 10, -96, 19, -70, -106, -97, 8, 105, -53, -63, 116, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -16, 119, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -8, 91, 31, -125, -4, -73, 33, 56, 117, -57, -96, -106, -10, 4, 50, -40], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
-[12:43:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[12:43:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
-[12:43:33] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[12:43:33] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[12:43:33] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[12:43:33] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[12:43:33] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[12:43:33] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:55050
-[12:43:33] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[12:43:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:46:50] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:46:50] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 44.938s...
-[12:47:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:50:38] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:50:38] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 46.316s...
-[12:51:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:55:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[12:57:26] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[12:57:26] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 12.68s...
-[12:59:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:03:42] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:03:42] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 50.636s...
-[13:03:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:07:35] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:07:35] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 32.624s...
-[13:07:51] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:11:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:12:10] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:12:10] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 13.979s...
-[13:15:32] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:15:32] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 27.488s...
-[13:15:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:19:02] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:19:02] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 32.596s...
-[13:19:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:23:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:25:37] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:25:37] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 12.025s...
-[13:27:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:31:52] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:31:52] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 4.702s...
-[13:31:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:34:59] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:34:59] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 31.761s...
-[13:35:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:38:33] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:38:33] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 57.729s...
-[13:39:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:44:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:44:41] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
-[13:44:41] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 57.464s...
-[13:48:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:51:41] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:51:41] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 7m 11.092s...
-[13:52:02] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:56:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:58:54] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:57:32] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.056s...
+[15:57:36] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[13:58:54] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 7m 19.308s...
-[14:00:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:04:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:06:16] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:06:16] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 40.457s...
-[14:08:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:11:59] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:57:36] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 0.859s...
+[15:57:40] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:11:59] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 50.367s...
-[14:12:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:16:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:18:52] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:18:52] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 21.74s...
-[14:20:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:22:16] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:57:40] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3.277s...
+[15:57:45] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:22:16] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 47.278s...
-[14:24:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:25:07] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:25:07] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 22.7s...
-[14:28:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:30:32] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
+[15:57:45] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3.17s...
+[15:57:51] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:30:32] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 58.285s...
-[14:32:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:36:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:36:33] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:57:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3.562s...
+[15:57:57] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:36:33] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 39.186s...
-[14:40:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:41:15] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:41:15] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 16.513s...
-[14:44:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:44:34] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
+[15:57:57] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4.412s...
+[15:58:05] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:44:34] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 0.889s...
-[14:47:37] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:58:05] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 10.605s...
+[15:58:18] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:47:37] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 55.392s...
-[14:48:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:52:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:54:35] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:54:35] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 9.266s...
-[14:56:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:57:48] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:58:18] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 11.391s...
+[15:58:32] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[14:57:48] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 58.842s...
-[15:00:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:03:50] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:03:50] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 56.833s...
-[15:04:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:08:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:09:50] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:09:50] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 11.98s...
-[15:12:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:13:04] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:58:32] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 36.848s...
+[15:59:11] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:13:04] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 32.832s...
-[15:16:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:16:40] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:16:40] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 18.158s...
-[15:20:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:23:02] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[15:59:11] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 47.166s...
+[16:00:01] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:23:02] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 23.512s...
-[15:24:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:28:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:28:28] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:28:28] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 6m 10.145s...
-[15:32:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:34:41] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
-	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+[16:00:01] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 1.931s...
+[16:01:05] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-Internal Server Error
- (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:34:41] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 55.874s...
-[15:36:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:39:39] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
 	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
-	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
-[15:39:39] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 5m 21.428s...
-[15:40:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:01:05] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 25.889s...
+[16:01:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
