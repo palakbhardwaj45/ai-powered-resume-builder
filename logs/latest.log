@@ -295,3 +295,81 @@ Internal Server Error
 Internal Server Error
  (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
 [11:57:19] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 59.833s...
+[11:59:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56298, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -37, -22, -2, -87, -46, -93, -97, 8, 105, -53, -73, 54, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -52, -124, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 75, 72, -13, -77, 57, 6, -75, -55, 119, 17, 102, 71, -6, -27, 59, -27], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:59:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:59:50] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[11:59:50] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:59:50] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56298
+[11:59:50] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56304, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -37, -16, 90, -128, 116, -42, -97, 8, 105, -53, -73, 63, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -9, -73, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 127, -63, 62, 103, -68, 83, -56, 41, -23, -94, 43, -39, -43, 103, 51, -117], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:59:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:59:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[11:59:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:59:59] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56304
+[11:59:59] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56327, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 7, 77, 115, -96, -32, -97, 8, 105, -53, -73, 70, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -26, -63, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -84, -95, -45, -117, 64, -9, -16, -105, -5, 81, 96, 95, 50, 61, 76, -54], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:00:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:00:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:00:06] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:00:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56327
+[12:00:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56332, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 12, 45, 44, -61, -125, -97, 8, 105, -53, -73, 73, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, 3, 100, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 59, 105, 54, 91, 74, -7, 73, 29, 72, 7, 38, -25, -20, 28, -18, -4], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:00:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:00:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:00:09] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:00:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56332
+[12:00:09] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56338, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 18, -123, -71, 38, -5, -97, 8, 105, -53, -73, 78, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -97, -36, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -118, -63, -117, -18, 31, -12, 66, -8, 44, 33, 82, 11, -123, 112, -86, 79], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:00:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:00:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:00:14] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:00:14] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56338
+[12:00:14] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[12:00:21] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: error creating transaction: failed to connect to `user=minekube database=defaultdb`:
+	52.29.118.143:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+	3.120.127.251:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+	18.193.33.147:26257 (free-tier13.aws-eu-central-1.cockroachlabs.cloud): server error: ERROR: This cluster has reached its Request Unit limit for the month and is now disabled. You can increase your resource limits to continue using this cluster. (SQLSTATE 53300)
+Internal Server Error
+ (cause: java.net.ProtocolException: Expected HTTP 101 response but was '500 Internal Server Error')
+[12:00:21] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 2.711s...
+[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56342, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 109, -109, -71, -35, 19, 99, -35, -99, 49, -84, -6, -36, 22, -41, 28, 102, -123, -97, 8, 105, -53, -73, 90, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -17, 102, -97, 8, 1, 4, -109, -71, -35, 19, -1, 3, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -89, 18, 22, -38, -101, -2, 29, -54, -110, 73, 12, 127, -128, 110, 88, 115], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:00:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:00:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:00:26] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:00:26] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56342
+[12:00:26] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:65283, peerAddr=157.49.172.250:56369, claimAddress=69.9.177.2:40712, claimToken=[44, 0, 102, -109, -71, -35, 19, -1, 3, -99, 49, -84, -6, -36, 49, -76, 0, 111, -71, -97, 8, 105, -53, -73, 119, 0, 0, 0, 0, 0, 24, 67, 61, 0, 0, 0, 0, 0, 90, -56, -3, 0, 0, 0, 0, 0, 54, -118, 76, -63, -102, -97, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 32, 31, 0, -122, 6, 24, 117, 115, 97, 45, 101, 110, 100, 105, 102, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -22, 8, -127, -97, 105, -116, 127, 66, -126, -3, -71, 3, -85, -59, -92, 49], tunnelServerId=0, tunnelId=3574348, dataCenterId=28, portOffset=0}
+[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[12:00:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.177.2:40712 to claim client
+[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[12:00:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[12:00:56] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:00:56] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /157.49.172.250:56369
+[12:00:56] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
