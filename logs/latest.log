@@ -71,3 +71,32 @@
 [16:08:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:12:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:16:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:20:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:20:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:49] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.io.EOFException
+[16:22:49] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.434s...
+[16:22:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[16:22:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:11] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.io.EOFException
+[16:23:11] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.171s...
+[16:23:14] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[16:23:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:25:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
