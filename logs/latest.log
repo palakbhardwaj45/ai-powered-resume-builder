@@ -65,3 +65,7 @@
 [16:03:46] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/INFO]: [connect] Trying to reconnect in 0.937s...
 [16:03:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
 [16:04:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:05:59] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: Watch closed with code 1012: restarting
+[16:05:59] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/INFO]: [connect] Trying to reconnect in 1.5s...
+[16:06:02] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[16:08:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
