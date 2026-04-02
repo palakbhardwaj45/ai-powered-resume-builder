@@ -84,3 +84,4 @@
 [16:42:00] [Server thread/INFO]: hangulala lost connection: Timed out
 [16:42:00] [Connect Spigot connection thread-3-3/INFO]: [connect] Connect tunneled player hangulala disconnected
 [16:42:00] [Server thread/INFO]: hangulala left the game
+[16:43:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
