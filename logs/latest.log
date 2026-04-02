@@ -74,3 +74,13 @@
 [16:27:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:31:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:35:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:39:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:41:43] [User Authenticator #0/INFO]: UUID of player hangulala is ba0d6ce9-0a27-3a9e-98a6-96c94c19ad4d
+[16:41:43] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [connect]
+[16:41:43] [Server thread/INFO]: [connect] Connect tunneled player logged in as hangulala (UUID: ba0d6ce9-0a27-3a9e-98a6-96c94c19ad4d)
+[16:41:44] [Server thread/INFO]: hangulala joined the game
+[16:41:45] [Server thread/INFO]: hangulala[/84.159.6.28:0] logged in with entity id 1 at ([world]55.5, 72.0, -29.5)
+[16:42:00] [Connect Spigot connection thread-3-3/INFO]: Disconnecting hangulala for sending keepalive response (3359882) out-of-order!
+[16:42:00] [Server thread/INFO]: hangulala lost connection: Timed out
+[16:42:00] [Connect Spigot connection thread-3-3/INFO]: [connect] Connect tunneled player hangulala disconnected
+[16:42:00] [Server thread/INFO]: hangulala left the game
