@@ -75,3 +75,7 @@
 [16:04:41] [Server thread/INFO]: [connect] Connect tunneled player logged in as vbif474 (UUID: 04d279b4-d786-3d7f-b596-02ed6cc3ea04)
 [16:04:42] [Server thread/INFO]: vbif474 joined the game
 [16:04:42] [Server thread/INFO]: vbif474[/176.115.149.77:0] logged in with entity id 1 at ([world]65.5, 78.0, -21.5)
+[16:05:30] [defaultEventLoopGroup-5-1/INFO]: [connect] Connect tunneled player vbif474 disconnected
+[16:05:30] [Server thread/INFO]: vbif474 lost connection: Disconnected
+[16:05:30] [Server thread/INFO]: vbif474 left the game
+[16:08:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

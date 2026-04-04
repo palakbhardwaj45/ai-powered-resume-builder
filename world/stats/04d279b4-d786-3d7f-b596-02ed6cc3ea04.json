@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 51,
+      "minecraft:time_since_rest": 974,
+      "minecraft:fall_one_cm": 825,
+      "minecraft:walk_one_cm": 188,
+      "minecraft:total_world_time": 974,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 50,
+      "minecraft:play_time": 974,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 974
+    },
+    "minecraft:picked_up": {
+      "minecraft:birch_sapling": 1
+    }
+  },
+  "DataVersion": 4671
+}
