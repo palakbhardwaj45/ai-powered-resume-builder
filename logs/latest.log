@@ -69,3 +69,9 @@
 [15:48:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:52:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:56:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:00:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:04:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:04:40] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [connect]
+[16:04:41] [Server thread/INFO]: [connect] Connect tunneled player logged in as vbif474 (UUID: 04d279b4-d786-3d7f-b596-02ed6cc3ea04)
+[16:04:42] [Server thread/INFO]: vbif474 joined the game
+[16:04:42] [Server thread/INFO]: vbif474[/176.115.149.77:0] logged in with entity id 1 at ([world]65.5, 78.0, -21.5)
