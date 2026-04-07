@@ -1,138 +1,65 @@
-[01:11:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
-[01:11:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
-[01:11:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:11:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[01:11:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[06:12:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
+[06:12:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[06:12:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:12:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[06:12:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - connect (0.7.2), playit-gg (0.2.0)
-[01:11:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:11:23] [ServerMain/INFO]: Loaded 1470 recipes
-[01:11:23] [ServerMain/INFO]: Loaded 1584 advancements
-[01:11:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:11:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 329.6ms
-[01:11:23] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:11:23] [Server thread/INFO]: Loading properties
-[01:11:23] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:11:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:11:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:11:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:11:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:11:25] [Server thread/INFO]: Default game type: SURVIVAL
-[01:11:25] [Server thread/INFO]: Generating keypair
-[01:11:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:11:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:11:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:11:25] [Server thread/INFO]: [connect] Loading server plugin connect v0.7.2
-[01:11:27] [Server thread/WARN]: [connect] en_ is not a supported language.
-[01:11:27] [Server thread/INFO]: [connect] Took 1,491ms to boot Connect
-[01:11:27] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[01:11:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:11:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:11:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:11:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:11:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:11:27] [Server thread/INFO]: Preparing level "world"
-[01:11:27] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[01:11:27] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[01:11:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:11:27] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:11:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:11:27] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:11:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:11:27] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:11:27] [Server thread/INFO]: Done preparing level "world" (0.440s)
-[01:11:27] [Server thread/INFO]: [connect] Enabling connect v0.7.2
-[01:11:27] [Server thread/INFO]: [connect] Endpoint name: worstsmp
-[01:11:27] [Server thread/INFO]: [connect] Your public address: worstsmp.play.minekube.net
-[01:11:27] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[01:11:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[01:11:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[01:11:28] [Server thread/INFO]: [spark] Starting background profiler...
-[01:11:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[01:11:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[01:11:29] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
-[01:11:29] [Server thread/INFO]: Running delayed init tasks
-[01:11:29] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x0c44669f, L:/[0:0:0:0:0:0:0:0]:25565]
-[01:11:29] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x207bbf6c, L:local:E:1353e5c9]
-[01:11:29] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[01:11:29] [Server thread/INFO]: Done (18.784s)! For help, type "help"
-[01:11:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[01:11:29] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 1 build(s) behind ***
-[01:11:29] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:11:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: usa-endif.gl.joinmc.link
-[01:11:30] [Thread-5/INFO]: playit.gg: tunnel setup
-[01:11:30] [Thread-5/INFO]: playit.gg: usa-endif.gl.joinmc.link
-[01:11:31] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
-[01:15:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:19:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:23:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:27:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:31:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:35:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:39:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:43:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:47:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:51:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:55:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[01:59:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:03:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:07:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:11:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:15:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:19:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:23:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:27:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:31:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:35:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:39:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:43:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:47:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:51:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:55:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[02:59:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:03:51] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:07:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:11:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:15:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:19:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:23:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:27:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:31:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:35:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:39:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:43:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:47:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:52:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[03:56:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:00:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:04:02] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:08:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:12:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:16:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:20:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:24:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:28:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:32:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:36:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:40:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:44:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:48:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:52:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[04:56:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:00:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:04:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:08:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:12:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:16:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:20:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:24:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:28:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:32:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:36:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:40:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:44:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:48:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:52:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[05:56:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[06:00:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[06:04:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[06:08:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[06:12:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:12:18] [ServerMain/INFO]: Loaded 1470 recipes
+[06:12:18] [ServerMain/INFO]: Loaded 1584 advancements
+[06:12:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:12:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 422.3ms
+[06:12:19] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[06:12:19] [Server thread/INFO]: Loading properties
+[06:12:19] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[06:12:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:12:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:12:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:12:20] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:12:20] [Server thread/INFO]: Default game type: SURVIVAL
+[06:12:20] [Server thread/INFO]: Generating keypair
+[06:12:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:12:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:12:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:12:21] [Server thread/INFO]: [connect] Loading server plugin connect v0.7.2
+[06:12:22] [Server thread/WARN]: [connect] en_ is not a supported language.
+[06:12:22] [Server thread/INFO]: [connect] Took 1,501ms to boot Connect
+[06:12:22] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[06:12:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:12:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:12:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:12:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:12:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:12:22] [Server thread/INFO]: Preparing level "world"
+[06:12:22] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[06:12:22] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[06:12:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:12:23] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:12:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:12:23] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:12:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:12:23] [Server thread/INFO]: Prepared spawn area in 0 ms
+[06:12:23] [Server thread/INFO]: Done preparing level "world" (0.521s)
+[06:12:23] [Server thread/INFO]: [connect] Enabling connect v0.7.2
+[06:12:23] [Server thread/INFO]: [connect] Endpoint name: worstsmp
+[06:12:23] [Server thread/INFO]: [connect] Your public address: worstsmp.play.minekube.net
+[06:12:23] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[06:12:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[06:12:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[06:12:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[06:12:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[06:12:24] [Server thread/INFO]: [spark] Starting background profiler...
+[06:12:24] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[06:12:25] [Server thread/INFO]: Running delayed init tasks
+[06:12:25] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xde40c6ab, L:/[0:0:0:0:0:0:0:0]:25565]
+[06:12:25] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xed7f27c5, L:local:E:93db8059]
+[06:12:25] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[06:12:25] [Server thread/INFO]: Done (20.792s)! For help, type "help"
+[06:12:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[06:12:25] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 1 build(s) behind ***
+[06:12:25] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[06:12:25] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[06:12:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: usa-endif.gl.joinmc.link
+[06:12:26] [Thread-5/INFO]: playit.gg: tunnel setup
+[06:12:26] [Thread-5/INFO]: playit.gg: usa-endif.gl.joinmc.link
+[06:16:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
