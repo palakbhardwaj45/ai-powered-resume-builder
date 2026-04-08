@@ -435,3 +435,4 @@
 [05:10:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
 [05:10:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:40712 to claim client
 [05:10:26] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to establish connection to tunnel claim/69.9.181.2:40712
+[05:13:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
