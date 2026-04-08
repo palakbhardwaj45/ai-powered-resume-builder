@@ -527,3 +527,4 @@
 [06:05:22] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /47.15.24.198:52246
 [06:05:22] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
 [06:06:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[06:10:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
