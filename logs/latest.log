@@ -87,3 +87,12 @@
 [21:47:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:51:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:55:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:59:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [connect]
+[21:59:27] [Server thread/INFO]: [connect] Connect tunneled player logged in as Maxyboi8901 (UUID: f73af410-040e-4305-aa66-7aa34496d072)
+[21:59:28] [Server thread/INFO]: Maxyboi8901 joined the game
+[21:59:28] [Server thread/INFO]: Maxyboi8901[/67.160.233.1:0] logged in with entity id 1 at ([world]55.5, 73.0, -36.5)
+[21:59:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:59:54] [defaultEventLoopGroup-5-1/INFO]: [connect] Connect tunneled player Maxyboi8901 disconnected
+[21:59:54] [Server thread/INFO]: Maxyboi8901 lost connection: Disconnected
+[21:59:54] [Server thread/INFO]: Maxyboi8901 left the game
+[22:03:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
