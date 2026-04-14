@@ -648,3 +648,44 @@
 [08:28:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [08:29:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [08:29:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:29:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:29:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:29:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:30:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:30:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:30:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:30:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:30:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:31:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:31:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:31:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:31:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:31:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:32:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:32:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:32:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:32:44] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/ERROR]: [connect] Connection error with WatchService: java.lang.RuntimeException: Watch closed with code 1012: restarting
+[08:32:44] [OkHttp WebSocket https://watch-connect.minekube.net/... writer/INFO]: [connect] Trying to reconnect in 1.171s...
+[08:32:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:32:55] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:32:55] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.418s...
+[08:32:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:06] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:33:06] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.135s...
+[08:33:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:17] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:33:17] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2.87s...
+[08:33:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:30] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:33:30] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4.555s...
+[08:33:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:45] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:33:45] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4.42s...
+[08:33:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:33:59] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:33:59] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 14.579s...
+[08:34:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:34:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:34:24] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[08:34:24] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 13.476s...
