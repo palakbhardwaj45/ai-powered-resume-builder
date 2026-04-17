@@ -104,3 +104,6 @@
 [16:49:25] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
 [16:49:25] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 3m 3.987s...
 [16:51:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:52:40] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[16:52:40] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 4m 7.769s...
+[16:55:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
