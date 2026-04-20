@@ -7169,3 +7169,209 @@
 [19:01:41] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
 [19:01:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
 [19:01:44] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:01:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:01:47] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:01:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:01:51] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:01:51] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[19:01:51] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 43.973s...
+[19:01:54] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:01:54] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:01:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:01:57] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:00] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:00] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:03] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:06] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:09] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:12] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:15] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:15] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:18] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:18] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:21] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:21] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:24] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:27] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:27] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:30] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:33] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:36] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:36] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:39] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:42] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:45] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[19:02:45] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 7.787s...
+[19:02:45] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:45] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:48] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:48] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:51] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:54] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:54] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:02:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:02:58] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:01] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:04] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:04] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:07] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:10] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:13] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:13] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:16] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:16] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:19] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:22] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:22] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:25] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:28] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:31] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:34] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:34] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:37] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:37] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:40] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:40] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:43] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:46] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:46] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:49] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:52] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:52] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:55] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:03:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:03:58] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:01] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:03] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[19:04:03] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1m 5.722s...
+[19:04:04] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:05] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:08] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:11] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:14] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:17] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:20] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:23] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:23] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:26] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:29] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:29] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:32] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:32] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:35] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:35] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:38] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:38] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:41] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:41] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:44] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:47] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:50] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:53] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:56] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:56] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:04:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:04:59] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:02] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:05] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:09] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:12] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:15] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:15] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:18] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:18] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:18] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.net.SocketTimeoutException: timeout (cause: java.net.SocketException: Socket closed)
+[19:05:18] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 2m 57.111s...
+[19:05:21] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:21] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:24] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:24] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:27] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:27] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:30] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:33] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:36] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:36] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:39] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:42] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:45] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:45] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:48] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:48] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:51] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:54] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:54] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:05:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:05:57] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:00] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:00] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:03] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:06] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:06] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:09] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:12] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:15] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:15] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:18] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:19] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:22] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:22] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:25] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:28] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:31] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:34] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:34] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:37] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:37] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:40] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:40] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:43] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
+[19:06:46] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[19:06:46] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: java.io.IOException: API error
